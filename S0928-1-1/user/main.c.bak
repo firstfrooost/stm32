@@ -1,0 +1,52 @@
+#include "stm32f10x.h"                  // Device header
+#include "Delay.h"
+#include "OLED.h"
+#include "Timer.h"
+#include "Timer2.h"
+
+uint16_t Num;
+
+int main(void)
+{
+	OLED_Init();
+	Timer_Init();
+	Timer2_Init();
+	
+	OLED_ShowString(1,1,"Num:");
+	OLED_ShowString(2,1,"CNT1:");
+	OLED_ShowString(3,1,"CNT2:");
+	
+	
+	while(1)
+	{
+		OLED_ShowNum(1,5,Num,5);
+		OLED_ShowNum(2,6,Timer2_GetCounter(),5);
+		OLED_ShowNum(3,6,Timer_GetCounter(),5);
+	}
+	
+}
+ 
+void TIM1_UP_IRQHandler(void)
+{
+	if (TIM_GetITStatus(TIM1,TIM_IT_Update)==SET)
+	{
+		if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0) == 0)
+		{
+			Num--;
+		}
+		TIM_ClearITPendingBit(TIM1,TIM_IT_Update);
+	}
+}
+	
+void TIM2_IRQHandler(void)
+{
+	if (TIM_GetITStatus(TIM2,TIM_IT_Update)==SET)
+	{
+		if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_12) == 0)
+		{
+			Num++;
+		}
+		TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
+	}
+}
+
