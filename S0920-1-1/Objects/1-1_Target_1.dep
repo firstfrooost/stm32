@@ -32,7 +32,7 @@ I (.\library\stm32f10x_usart.h)(0x4D783BB4)
 I (.\library\stm32f10x_wwdg.h)(0x4D783BB4)
 I (.\library\misc.h)(0x4D783BB4)
 F (.\user\stm32f10x_it.h)(0x4D99A59E)()
-F (.\user\main.c)(0x6AAFA730)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\start -I .\user -I .\system -I .\hardware -I .\library-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\user\main.c)(0x6AC719F0)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\start -I .\user -I .\system -I .\hardware -I .\library-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\start\stm32f10x.h)(0x4D783CB4)
 I (.\start\core_cm3.h)(0x4D523B58)
 I (D:\Keil_v5\ARM\ARM_V5\include\stdint.h)(0x5E8E3CC2)
@@ -163,7 +163,7 @@ I (.\library\misc.h)(0x4D783BB4)
 I (hardware\OLED_Font.h)(0x63087D24)
 F (.\hardware\OLED_Font.h)(0x63087D24)()
 F (.\hardware\OLED.h)(0x6AAF8095)()
-F (.\hardware\hwsensor.c)(0x6AAFA681)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\start -I .\user -I .\system -I .\hardware -I .\library-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\hwsensor.o --omf_browse .\objects\hwsensor.crf --depend .\objects\hwsensor.d)
+F (.\hardware\hwsensor.c)(0x6AC647CA)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\start -I .\user -I .\system -I .\hardware -I .\library-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\hwsensor.o --omf_browse .\objects\hwsensor.crf --depend .\objects\hwsensor.d)
 I (.\start\stm32f10x.h)(0x4D783CB4)
 I (.\start\core_cm3.h)(0x4D523B58)
 I (D:\Keil_v5\ARM\ARM_V5\include\stdint.h)(0x5E8E3CC2)

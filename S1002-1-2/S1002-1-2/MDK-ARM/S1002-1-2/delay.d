@@ -1,0 +1,9 @@
+s1002-1-2\delay.o: Delay.c
+s1002-1-2\delay.o: D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h
+s1002-1-2\delay.o: .\RTE\_S1002-1-2\RTE_Components.h
+s1002-1-2\delay.o: ../Drivers/CMSIS/Include/core_cm3.h
+s1002-1-2\delay.o: D:\Keil_v5\ARM\ARM_V5\Bin\..\include\stdint.h
+s1002-1-2\delay.o: ../Drivers/CMSIS/Include/cmsis_version.h
+s1002-1-2\delay.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+s1002-1-2\delay.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+s1002-1-2\delay.o: D:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h
